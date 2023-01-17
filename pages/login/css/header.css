@@ -1,0 +1,26 @@
+header{
+    background-color: #FFFFFF;
+    border-bottom: 0.5px solid #D9D9D9;
+    position: sticky; 
+    top: 0;   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar li{
+    margin: 30px;
+}
+.navbar a{
+    color: #000000D9;
+}
+.log_header{
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

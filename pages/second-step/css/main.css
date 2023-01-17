@@ -1,0 +1,126 @@
+@import "common.css";
+@import "header.css";
+@import "footer.css";
+
+
+main{
+    background-color:  #DFE2E2;
+    padding-top: 45px;
+}
+.label_box{
+    display: flex;
+    justify-content: center;
+}
+.label-box{
+    background: #FFFFFF;
+    box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.04), 0px 4px 56px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+    width: 500px;
+    width: 496px;
+    margin: 24px 0px;
+    padding: 40px 40px;
+    background: #ffffff;
+    box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.04),
+          0px 4px 56px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+}
+.img_box{
+    margin-top: 20px;
+}
+.texts_label{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.email{
+    margin-left: 30px;
+}
+.email input{
+    margin-top: 10px;
+    width: 380px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+}
+.email-input[type="email"]{
+   padding: 15px 15px 22px 10px;
+}
+
+.email-input2[type="tel"]{
+   padding: 15px 15px 22px 10px;
+}
+.phone{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.phone input{
+    margin-top: 10px;
+    width: 380px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+}
+.region{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.country select{
+    height: 42px;
+    width: 180px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    padding: 0px 0px 0px 10px;
+}
+.city input{
+    height: 42px;
+    width: 160px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    margin-right: 8px;
+    background-color: #fbfbfb;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    padding: 0px 0px 0px 10px;
+}
+.password{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.password input{
+    margin-top: 10px;
+    width: 380px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+}
+.pwd-input[type="password"]{
+     -webkit-text-security: disc;
+     letter-spacing: 3px;
+}
+.btn-form{
+    margin-left: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    width: 380px;
+}
+.btn{
+    width: 380px;
+    border: none;
+    background-color:  #01BAB3;
+    height: 40px;
+    color: white;
+    border-radius: 6px;
+}
+.btn a{
+    color: white;
+}
+span{
+    color: #01BAB3;
+}

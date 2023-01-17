@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second step</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+               <div class="logo_img">
+                <a href="#">
+                    <img src="./images/logo.svg" alt="">
+                </a>
+               </div>
+               <ul>
+                 <li>
+                    <a href="#">Services</a>
+                 </li>
+                 <li>
+                    <a href="#">About</a>
+                 </li>
+                 <li>
+                    <a href="#">Contacts</a>
+                 </li>
+                 <li class="log_header">
+                    <a href="../login/">Log In</a>
+                 </li>
+                 <li class="log_header" >
+                    <a href="#">Open an Account</a>
+                 </li>
+                 <li class="log_header">
+                    <a href="#">En</a>
+                 </li>
+               </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container label_box">
+            <div class="label-box">
+                <div class="texts_label">
+                <div class="img_box">
+                    <img src="./images/logo.svg" alt="">
+                </div>
+                <h1 style="margin-top:20px; padding-bottom: 20px;">Welcome to ByTrend!</h1>
+                <p>Already have an account?<a class="login-a" href="../login/">Log in</a></p>
+            </div>
+                <form class="form" action="../../pages/login/">
+                   <div class="email">
+                    <label for="email">Email <span>*</span></label> <br>
+                    <input class="email-input" type="email" name="email" required placeholder="Email address">
+                   </div>
+                    <div class="phone">
+                        <label for="tel">Phone <span>*</span></label> <br>
+                        <input class="email-input2" type="tel" name="tel" required pattern="+998(33|7(0|1|7)|88|9\d{1})(\d{7})$" placeholder="965-748-89-90" >
+                    </div>
+                    <div class="region">
+                        <div class="country">
+                            <label for="region">Country <span>*</span></label> <br>
+                             <select name="country" id="country" required>
+                                <option value="Russia" aria-placeholder="Russia">Russia</option>
+                                <option value="Qazaq">Qazaqstan</option>
+                                <option value="Uzbek">Uzbekistan</option>
+                                <option value="Kirgiz">Kirgizistan</option>
+                                <option value="Tajik">Tajikistan</option>
+                             </select>
+                        </div>
+                        <div class="city">
+                            <label for="text">City <span>*</span></label> <br>
+                            <input type="text" name="city" id="city" required placeholder="Name of the city">
+                        </div>
+                    </div>
+                    <div class="password">
+                        <label for="pwd">Password <span>*</span></label> <br>
+                        <input class="pwd-input" type="password" name="pwd" id="pwd" required minlength="12">
+                    </div>
+                    <div class="password confirm">
+                        <label for="psw">Confirm password <span>*</span></label> <br>
+                        <input class="pwd-input" type="password" name="pwd" id="pwd" required min="12">
+                    </div>
+                      <div class="btn-form">
+                        <button  type="submit" class="btn" >
+                           Register  ->                        </button>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>By signing up, you are agreeing to our <span>Terms & Conditions</span>  <br>
+             and <span>Privacy Policy.</span> </p>
+    </footer>
+</body>
+</html>
